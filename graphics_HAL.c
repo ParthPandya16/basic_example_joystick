@@ -10,11 +10,11 @@
 
 void make_5digit_NumString(unsigned int num, int8_t *string)
 {
-    string[0]= (        num  / 10000) +'0';
-    string[1]= ((num%10000) / 1000) +'0';
-    string[2]= ((num%1000) / 100) +'0';
-    string[3]= ((num%100) / 10) +'0';
-    string[4]= ((num%10) / 1) +'0';
+    string[0]= (          num  / 10000) +'0';
+    string[1]= ((num % 10000) / 1000) +'0';
+    string[2]= ((num % 1000) / 100) +'0';
+    string[3]= ((num % 100) / 10) +'0';
+    string[4]= ((num % 10) / 1) +'0';
     string[5]= 0;
 }
 
